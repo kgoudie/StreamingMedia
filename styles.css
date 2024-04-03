@@ -1,0 +1,109 @@
+html, body {
+    background-color: #020659;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    width: 375px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+header{
+    background: linear-gradient(0.25turn, #030ABC,#000);
+    color: #fff;
+    padding-top:23px;
+    background-color: #000;
+}
+h1{
+    font-weight: bold;
+    font-size: 1.25em;
+    line-height: 2em;
+}
+h1, p{
+    padding-bottom:1em;
+}
+nav h2{
+    font-size: 0;
+    padding: 0;
+}
+ 
+h2, h3{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav{
+    position:fixed;
+    top:0;
+}
+ul {
+    max-height: 0;
+    overflow: hidden;
+  }
+audio::-webkit-media-controls-mute-button {
+    background-color:#fff;
+    border-radius:50%;
+}
+audio::-webkit-media-controls-play-button {
+    background-color:#fff;
+    border-radius:50%;
+}
+audio::-webkit-media-controls-enclosure {
+    background-color:rgba(255, 255, 255, .5)
+}
+
+#trendy {
+    display: flex;
+    overflow-x: scroll;
+}
+#trendy audio{
+    position:relative;
+
+}
+#trendy section{
+    display: flex;
+    flex-direction: column;
+    overflow:visible;
+}
+#trendy img{
+    order:-1;
+}
+
+#trendy dl{
+    display: flex;
+    font-weight: 100;
+}
+
+#playlists{
+    display: flex;
+    overflow-x: scroll;
+    align-items: left;
+    justify-content: left;
+}
+
+#playlists img{
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+#playlists p{
+    position:static;
+
+}
+#curated{
+    display: flex;
+    overflow-x: scroll;
+}
+#curated img{
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+@media (min-width: 834px) {
+    body {
+        width: 834px;
+    }
+}
+
+
+
+
+
